@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Animaux</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <nav>
+                <ul class="desktop-nav">
+                    <li><a href="index.html">Menu</a>
+                        <ul class="sous-menu">
+                        <li><a href="quizAnimaux.html">Quiz Animaux</a></li>
+                        <li><a href="quizTelevision.html">Quiz Télévision</a></li>
+                        <li><a href="quizCulture.html">Quiz Culture</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Quiz Animaux</h1>
+    <div class="wrap">
+        <p id="text-theme-animaux">Tu es sur le thème animaux. <br> 
+            <br> Tu as 8 questions auxquelles répondre, tu peux cocher une 
+                case par question. À la fin du quiz, si tu trouves la bonne réponse ton score 
+                score affichera.
+                <br>
+                <br> À toi de jouer ! 
+        </p>
+        <button id="btn-start">Start</button>
+    </div>
+    <div id="questions" class="hide">
+        <div id="questionsA">
+            <h2 id="questionAnimaux">Question</h2>
+            
+            <ul>
+                <li>
+                    <input type="checkbox" name="Réponse" id="a" class="reponse">
+                    <label for="a" id="a_textA">Réponse</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Réponse" id="b" class="reponse">
+                    <label for="b" id="b_textA">Réponse</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Réponse" id="c" class="reponse">
+                    <label for="c" id="c_textA">Réponse</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="Réponse" id="d" class="reponse">
+                    <label for="d" id="d_textA">Réponse</label>
+                </li>
+            </ul>
+            <p id="score" class="score">Score = 0 / 8</p>
+            <p id="indicateur">Veuillez sélectionner une réponse</p>
+            <div class="wrapper">
+                <button type="submit" id="verification" value="Vérification" onclick="test()"><a rel="noreferrer"><span>Voir la bonne réponse</span></button>
+                <button type="button" id="next" value="Next"><a rel="noreferrer"><span>Next</span></button>
+            </div>
+        </div>   
+    </div>
+    <div class="restart">
+        <div id="restart" class="hide">
+            <p id="fin" class="fin">Fin du quiz, vous n'avez répondu à aucune question.</p>
+            <div class="btn">
+                <button id="btn-restart" ><span>Relancer le quiz</span></button>
+            </div>
+        </div>
+    </div>
+    <script  type="module" src="quiz.js"></script>
+</body>
+</html>
