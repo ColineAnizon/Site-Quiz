@@ -1,0 +1,311 @@
+{
+    "questionsAnimaux": [
+        {
+            "question" : "Quel animal est le plus rapide ?",
+            "reponses" : [
+                "Le chien",
+                "Le cheval",
+                "Le chat",
+                "Un oiseau"
+            ],
+            "correctRep" : "Le cheval"
+        },
+        {
+            "question" : "A quel animal fait référence à Spiderman ?",
+            "reponses" : [
+                "Une chauve-souris",
+                "Un rat",
+                "Un loup",
+                "Une araignée"
+            ],
+            "correctRep" : "Une araignée"
+        },
+        {
+            "question" : "Quel animal hiberne ?",
+            "reponses" : [
+                "Le cheval",
+                "Le singe",
+                "L'ours",
+                "Le crocodile"
+            ],
+            "correctRep" : "L'ours"
+        },
+        {
+            "question" : "Quel est le plus grand mammifère marin ?",
+            "reponses" : [
+                "Le requin",
+                "Le dauphin",
+                "La baleine",
+                "L'orque"
+            ],
+            "correctRep" : "La baleine" 
+        },
+        {
+            "question" : "Lequel de ces crustacés vit en eau douce ?",
+            "reponses" : [
+                "Le homard",
+                "Le crabe",
+                "L'écrevisse",
+                "La langouste"
+            ],
+            "correctRep" : "L'écrevisse"
+        },
+        {
+            "question" : "Pourquoi le caméléon change-t-il de couleur ?",
+            "reponses" : [
+                "Pour se camoufler",
+                "Pour se protéger de la chaleur",
+                "Pour communiquer",
+                "Pour être beau"
+            ],
+            "correctRep" : "Pour se camoufler"
+        },
+        {
+            "question" : "Que mange le koala ?",
+            "reponses" : [
+                "Du bambou",
+                "De la salade",
+                "De l'eucalyptus",
+                "Du pop-corn"
+        
+            ],
+            "correctRep" : "De l'eucalyptus"
+        },
+        {
+            "question" : "Pourquoi les tortues marines reviennent-elles parfois à terre ?",
+            "reponses" : [
+                "Pour échapper aux prédateurs",
+                "Pour se protéger des tempêtes",
+                "Pour acheter des magazines",
+                "Pour pondre leurs oeufs"
+            ],
+            "correctRep" : "Pour pondre leurs oeufs"
+        },
+        {
+            "question" : "Où vit l'ours blanc ?",
+            "reponses" : [
+                "Au Pôle Sud",
+                "Au Pôle Est",
+                "Au Pôle Nord",
+                "Au Pôle Emploi"
+            ],
+            "correctRep" : "Au Pôle Nord"
+        },
+        {
+            "question" : "De quelle famille fait partie l'okapi ?",
+            "reponses" : [
+                "De la famille du cheval",
+                "De la famille des antilopes",
+                "De la famille des girafes",
+                "De la famille des cerfs"
+            ],
+            "correctRep" : "De la famille des girafes"
+        }
+    ],
+
+    "questionsTelevision" : [
+        {
+            "question" : "Quand est apparu la première télévision ?",
+            "reponses" : [
+                "En 1926",
+                "En 1935",
+                "En 1835",
+                "En 1964"
+            ],
+            "correctRep" : ["En 1926"]
+        },
+        {
+            "question" : "Quel est le disney le plus connu ?",
+            "reponses" : [
+                "La Reine des neiges",
+                "Zootopie",
+                "Pirates des Caraïbes",
+                "Le Roi Lion"
+            ],
+            "correctRep" : ["Le Roi Lion"]
+        },
+        {
+            "question" : "Comment s'appelle le personnage principal dans les Simpson ?",
+            "reponses" : [
+                "Bart Simpson",
+                "Homer Simpson",
+                "Marge Simpson",
+                "Lisa Simpson"
+            ],
+            "correctRep" : ["Homer Simpson"]
+        },
+        {
+            "question" : "Sur quelle chaîne passait l'émission Malcolm ?",
+            "reponses" : [
+                "M6", 
+                "W9", 
+                "NT1",
+                "TF1"
+            ],
+            "correctRep" : ["W9"]
+        },
+        {
+            "question" : "Quel acteur joue le rôle de Jack Sparrow dans Pirates des Caraïbes ?",
+            "reponses" : [
+                "Anthony De La Torre",
+                "Orlando Bloom",
+                "Jack Davenport",
+                "Johnny Depp"
+            ],
+            "correctRep" : ["Johnny Depp"]
+        },
+        {
+            "question" : "Quel série d'animation est passé sur la chaîne Gulli ?",
+            "reponses" : [
+                "Oggy et les cafards",
+                "Alvin et les Chipmunks",
+                "Martin Mystère",
+                "Les Ratz"
+            ],
+            "correctRep" : ["Oggy et les cafards", "Martin Mystère", "Les Ratz"]
+        },
+        {
+            "question" : "Quel est le nom du singe, le meilleur ami de Dora l'Exploratrice ?",
+            "reponses" : [
+                "Tatane",
+                "Chipeur",
+                "Savatte",
+                "Babouche"
+            ],
+            "correctRep" : ["Babouche"]
+        },
+        {
+            "question" : "Quels sont les pouvoirs de Captain America dans l'univers Marvel ?",
+            "reponses" : [
+                "Invisibilité",
+                "Guérison",
+                "Force surhumaine",
+                "Contrôler le feu"
+            ],
+            "correctRep" : ["Force surhumaine", "Guérison"]
+        },
+        {
+            "question" : "Où se retrouvent souvent les personnages de la série Friends ?",
+            "reponses" : [
+                "Au Brooklyn Park",
+                "Au Central Perk",
+                "Au Brooklyn Park",
+                "Au Central Park"
+            ],
+            "correctRep" : ["Au Central Perk"]
+        },
+        {
+            "question" : "Dans Koh-Lanta, il existe deux types d'épreuves : les épreuves ... et les épreuves ... ?",
+            "reponses" : [
+                "De confort",
+                "De secours",
+                "De consolation",
+                "D'immunité"
+            ],
+            "correctRep" : ["De confort", "D'immunité"]
+        }
+    ],
+
+    "questionsCulture" : [
+        {
+            "question" : "Qui était le dieu de la mer dans la mythologie grecque ?",
+            "reponses" : [
+                "Océanos", 
+                "Zeus", 
+                "Poséidon", 
+                "Gaia"
+            ],
+            "correctRep" : "Poséidon"
+        },
+        {
+            "question" : "Quel est la capital des États-Unis ?",
+            "reponses" : [
+                "Londres", 
+                "Washington", 
+                "New York",
+                "Los Angeles"
+            ],
+            "correctRep" : "Washington"
+        },
+        {
+            "question" : "En combien de temps la Terre tourne-t-elle autour du Soleil ?",
+            "reponses" : [
+                "365 jours",
+                "366 jours",
+                "364 jours",
+                "400 jours"
+            ],
+            "correctRep" : "365 jours"
+        },
+        {
+            "question" : "Quel est le nom du premier homme à avoir mis le pied sur la Lune ?",
+            "reponses" : [
+                "Buzz Aldrin",
+                "Neil Armstrong",
+                "Charles Conrad",
+                "Michael Jackson"
+            ],
+            "correctRep" : "Neil Armstrong"
+        },
+        {
+            "question" : "Quel fleuve est le plus long du monde ?",
+            "reponses" : [
+                "La Loire",
+                "Le Nil",
+                "L'Amazone",
+                "Yangzi Jiang"
+            ],
+            "correctRep" : "L'Amazone"
+        },
+        {
+            "question" : "Quelle est la date de la première guerre mondiale ?",
+            "reponses" : [
+                "1939 - 1945", 
+                "1914 - 1918", 
+                "1947 - 1989",
+                "1337 - 1453"
+            ],
+            "correctRep" : "1914 - 1918"
+        },
+        {
+            "question" : "Lequel des cinq sens manque au serpent ?",
+            "reponses" : [
+                "L'odorat",
+                "Le goût",
+                "Le vue",
+                "L'ouïe"
+            ],
+            "correctRep" : "L'ouïe"
+        },
+        {
+            "question" : "A quelle date le World Trace Center dans la ville New York a été attaqué ?",
+            "reponses" : [
+                "Le 11 septembre 2001",
+                "Le 11 septembre 2000",
+                "Le 13 février 1975",
+                "Le 3 mars 2022"
+            ],
+            "correctRep" : "Le 11 septembre 2001"
+        },
+        {
+            "question" : "Dans quelle ville le Colisée se trouve-t-il ?",
+            "reponses" : [
+                "Nîmes",
+                "Venise",
+                "Barcelone",
+                "Rome"
+            ],
+            "correctRep" : "Rome"
+        },
+        {
+            "question" : "Comment appelle-t-on le point le plus haut du Soleil dans sa course ?",
+            "reponses" : [
+                "Le nadir",
+                "Le zénith",
+                "L'apogée",
+                "L'olympia"
+            ],
+            "correctRep" : "Le zénith"
+        }
+    ]
+}
