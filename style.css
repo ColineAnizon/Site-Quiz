@@ -1,0 +1,361 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: black;
+    background-color: white;
+}
+
+/* MENU NAV */
+.nav-container {
+    background: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container li {
+    list-style-type: none;
+}
+
+
+nav .desktop-nav {
+    margin-left: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+.sous-menu a {
+    margin-right: 50px;
+}
+
+.desktop-nav .sous-menu {
+    margin-left: -100px;
+    background-color: black;
+    display: none;
+    position: absolute;
+}
+
+.desktop-nav .sous-menu li a:link, .desktop-nav .sous-menu li a:visited {
+    display: block;
+    padding: 15px;
+}
+
+.desktop-nav .sous-menu li a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.desktop-nav li:hover .sous-menu {
+    display: block;
+}
+
+/* ACCUEIL INDEX */
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.box div{
+    width: 1500px;
+    height: 150px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.box h2, p{
+    margin-left: 50px;
+    
+}
+
+.box h2{
+    margin-top: 50px;
+    padding: 10px 0px;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.box .animaux{
+    background-color: #A8E51B; /*#FC5C65*/
+}
+
+.box .television{
+    background-color: #28EDE0;/*#FD9644*/
+    
+}
+
+.box .culture{
+    background-color: #FCAD3F;/*#FED330*/
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+.score {
+    margin-left: 300px;
+}
+
+
+/* CSS BOUTON START */
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.restart {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;   
+}
+
+.fin {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+}
+
+.btn {
+    margin-top: 180px;
+    margin-left: 550px;
+}
+
+#text-theme-animaux {
+    font-size: 25px;
+    margin-bottom: 600px;
+    margin-top: 50px;
+    width: 500px;
+    text-align: justify;
+}
+
+#btn-start, #btn-restart {
+    min-height: 60px;
+    min-width: 300px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #313133;
+    background: linear-gradient(90deg, #00FA9A 0%, 
+    #00FA9A 100%);
+    border-radius: 1000px;
+    box-shadow: 10px 10px 15px rgba(79,209,197,.64); /*OMBRE*/
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    position: relative;
+    margin-left: -400px;
+}
+
+#btn-start::before, #btn-restart::before {
+    content: '';
+    border-radius: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out 0s;
+    min-width: 312px;
+    min-height: 72px;
+    border: 5px solid #00FA9A;
+}
+
+#btn-start:hover, #btn-start:focus, #btn-restart:hover, #btn-restart:focus {
+    transform: translateY(-6px);
+}
+
+#btn-start:hover::before, .btn-start:focus::before, #btn-restart:hover::before, #btn-restart:focus::before {
+    opacity: 1;
+}
+
+#btn-start::after, #btn-restart::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 5px solid #00FA9A;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+
+}
+
+#btn-start:hover::after, #btn-start:focus::after, #btn-restart:hover::after, #btn-restart:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+  
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+    }
+}
+
+
+/* CSS QUIZ ANIMAUX */
+#questionsA {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 20px;
+    padding: 30px 10px 50px 100px;
+    background-color: #A8E51B;
+    border: solid white;
+    color: black;
+    border-radius: 10px;
+}
+
+#questionsA ul {
+    list-style: none;
+}
+
+#questionsA li {
+    margin-bottom: 10px;
+}
+
+
+/* CSS QUIZ TÉLÉVISION */
+#questionsT {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 20px;
+    padding: 30px 10px 50px 100px;
+    background-color: #28EDE0;
+    border: solid white;
+    color: black;
+    border-radius: 10px;
+}
+
+#questionsT ul {
+    list-style: none;
+}
+
+#questionsT li {
+    margin-bottom: 10px;
+}
+
+/* QUIZ CULTURE */
+#questionsC {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 20px;
+    padding: 30px 10px 50px 100px;
+    background-color: #FCAD3F;
+    border: solid white;
+    color: black;
+    border-radius: 10px;
+}
+
+#questionsC ul {
+    list-style: none;
+}
+
+#questionsC li {
+    margin-bottom: 10px;
+}
+
+/* INDICATEUR COULEUR POUR LES REPONSES */
+
+.correct {
+    background-color: #34C924;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.incorrect {
+    background-color: #FF3F59;
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* CSS BOUTON REPONSE ET NEXT */
+
+.wrapper {
+    position: fixed;
+    margin-left: 240px;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    transition: all .35s;
+}
+
+.wrapper a span {
+    position: relative;
+    z-index: 2;
+}
+
+.wrapper span {
+    top: 10px;
+}
+
+.wrapper a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all .35s;
+}
+
+.wrapper a:hover {
+    color: #fff;
+}
+
+.wrapper a:hover:after {
+    width: 100%;
+}
+
+.wrapper button {
+    border: none;
+}
